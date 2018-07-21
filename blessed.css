@@ -163,3 +163,26 @@ header {
 	padding: 0;
 	text-decoration: underline;
 }
+
+/*GALLERY STYLINGS*/
+.Gallery {
+	background-image: url("White-Grungy-Texture.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: cover;
+	border-top: 4px solid;
+	border-bottom: 4px solid;
+	margin: 0; padding: 0;
+}
+
+.pictures {
+	max-width: 60%;
+	display: table-cell;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0; bottom: 0;
+	border: 2px solid #12025a; 
+	max-height: 60%; 
+	margin: auto;
+	padding: 0;
+}
