@@ -20,5 +20,5 @@
 		x[slideIndex-1].style.maxHeight = "70%";
 		x[slideIndex-1].style.margin = "auto";
 		x[slideIndex-1].style.marginTop = "70px";*/
-	    setTimeout(carousel, 3000); // Change image every 2 seconds
+	    setTimeout(carousel, 5000); // Change image every 2 seconds
 	}

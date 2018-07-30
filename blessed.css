@@ -176,19 +176,6 @@ header {
 	position: relative;
 }
 
-.activePic {
-	display: block;
-	max-width: 70%;
-	max-height: 70%;
-	margin: auto;
-	padding: 2px;
-	border: 2px solid black;
-}
-
-.inactivePic {
-	display: none;
-}
-
 #gallery_heading h2 {
 	text-align: center;
 	font-family: Nexa Light, Helvetica, sans-serif;
@@ -197,3 +184,36 @@ header {
 	width: auto;
 	height: auto;
 }
+
+#scrollbar {
+	background-color: white;
+	height: 70%;
+	width: 100%;
+}
+
+.activePic {
+	display: block;
+	max-width: 70%;
+	max-height: 100%;
+	margijn: auto;
+	padding: 0 2px;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	position: relative;
+	animation-name: slideLeft;
+	animation-duration: 5s;
+	animation-timing-function: cubic-bezier(.07,.45,0,1.01);
+}
+
+.inactivePic {
+	display: none;
+}
+
+/*the animations*/
+@keyframes slideLeft {
+	0% { margin-left: -170px;
+		   margin-fright: auto; }
+	100% { margin-left: 200px;
+	     margin-rigfht: auto; }
+}
+
