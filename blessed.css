@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 section{
@@ -186,7 +187,7 @@ header {
 }
 
 #scrollbar {
-	background-color: white;
+	background-color: rgba(205, 205, 205, 0.8);
 	height: 70%;
 	width: 100%;
 }
@@ -202,7 +203,7 @@ header {
 	position: relative;
 	animation-name: slideLeft;
 	animation-duration: 5s;
-	animation-timing-function: cubic-bezier(.07,.45,0,1.01);
+	animation-timing-function: cubic-bezier(.08,.72,.98,.19);
 }
 
 .inactivePic {
@@ -211,9 +212,9 @@ header {
 
 /*the animations*/
 @keyframes slideLeft {
-	0% { margin-left: -170px;
+	0% { margin-left: -800px;
 		   margin-fright: auto; }
-	100% { margin-left: 200px;
+	100% { margin-left: 1500px;
 	     margin-rigfht: auto; }
 }
 
