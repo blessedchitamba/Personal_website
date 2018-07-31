@@ -246,7 +246,7 @@ footer h2 {
 	color: white;
 	font-family: Segoe UI;
 	font-weight: lighter;
-	line-height: 300px;
+	line-height: 270px;
 }
 
 footer h2 {
@@ -256,9 +256,8 @@ footer h2 {
 
 #empty {
 	width: 100%;
-	height: 100%;
+	height: 300px;
 	background-color: rgba(58, 58, 58, 0.6);
-	border-top: 2px solid white;
-	padding-top 40px;
+	border-top: 1px solid #a7a7a7;
 	box-sizing: border-box;
 }
