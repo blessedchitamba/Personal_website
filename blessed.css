@@ -153,16 +153,14 @@ header {
 .interest h3 {
 	font-family: Nexa Light, Helvetica, sans-serif;
 	text-align: center;
-	text-decoration: underline;
 }
 
 #container h2 {
 	text-align: center;
-	font-family: Nexa Bold;
+	font-family: Segoe UI, Nexa Light;
 	font-size: 30px;
 	color: #12025a;
 	padding: 0;
-	text-decoration: underline;
 }
 
 /*GALLERY STYLINGS*/
@@ -172,7 +170,6 @@ header {
 	background-position: center;
 	background-size: cover;
 	border-top: 4px solid;
-	border-bottom: 4px solid;
 	margin: 0; padding: 0;
 	position: relative;
 }
@@ -180,9 +177,12 @@ header {
 #gallery_heading h2 {
 	text-align: center;
 	font-family: Nexa Light, Helvetica, sans-serif;
-	background: #f3f3f3;
+	background: rgba(205, 205, 205, 0.6);
+	border-bottom: 2px solid #a7a7a7; border-top: 2px solid #a7a7a7;
 	padding: 10px 5px;
-	width: auto;
+	display: block;
+	margin: 20px auto;
+	width: 200px;
 	height: auto;
 }
 
@@ -190,13 +190,13 @@ header {
 	background-color: rgba(205, 205, 205, 0.8);
 	height: 70%;
 	width: 100%;
+	border-bottom: 2px solid #a7a7a7; border-top: 2px solid #a7a7a7;
 }
 
 .activePic {
 	display: block;
 	max-width: 70%;
 	max-height: 100%;
-	margijn: auto;
 	padding: 0 2px;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
@@ -212,9 +212,28 @@ header {
 
 /*the animations*/
 @keyframes slideLeft {
-	0% { margin-left: -800px;
-		   margin-fright: auto; }
-	100% { margin-left: 1500px;
-	     margin-rigfht: auto; }
+	0% { margin-left: -800px; }
+	100% { margin-left: 1500px;}
 }
 
+.full_gallery_button {
+	font-family: Nexa Light;
+	font-size: 15px;
+	padding: 5px 10px;
+	color: white;
+	background-color: black;
+	border-radius: 3px;
+	display: block;
+	margin: 15px auto;
+}
+
+button:hover {
+	color: #a7a7a7;
+	text-decoration: underline;
+	box-shadow: 2px 5px 9px 3px #888888;
+}
+
+footer {
+	background-color: white;
+	height: 300px;
+}
